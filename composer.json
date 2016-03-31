@@ -1,0 +1,32 @@
+{
+    "name": "backbee/crop-bundle",
+    "description": "CropBundle provides Backbee image cropping functionality",
+    "keywords": ["CMS", "Core", "Content Management", "No backend CMS", "Crop", "Bundle"],
+    "license": "GPL-3.0+",
+    "authors": [
+        {
+            "name": "Mihai Faget",
+            "email": "mihai.faget@lp-digital.fr"
+        },
+        {
+            "name": "BackBee community",
+            "homepage": "https://github.com/backbee/BackBee/graphs/contributors"
+        }
+    ],
+    "require": {
+        "php": ">=5.4.0",
+        "backbee/backbee": "~1.1.0@beta",
+        "backbee/bb-core-js": "~1.1.0@beta"
+    },
+    "autoload": {
+        "psr-4": {
+            "BackBee\\Bundle\\CropBundle\\": ""
+        }
+    },
+    "minimum-stability": "stable",
+    "extra": {
+        "branch-alias": {
+            "dev-master": "1.0-dev"
+        }
+    }
+}
